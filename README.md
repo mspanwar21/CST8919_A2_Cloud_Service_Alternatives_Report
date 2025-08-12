@@ -395,9 +395,3 @@ Per-hour/instance or calls-based tiers; data transfer adds cost; developer vs pr
 API-as-code, policy promotion via CI/CD, contract testing, canary releases, telemetry to monitoring/siem.
 
 ---
-
-## Takeaways
-
-- **Parity is strong** across clouds for identity, observability, governance, and serverless. Choose based on ecosystem fit and team skills.
-- **Costs hinge on data** (logs/metrics egress, retention) and **scale** (throughput units, gateway instances). Set routing and retention policies early.
-- **Build guardrails early** (Landing Zone + Policy/Config/Org Policy) and keep everything in **code** (IaC + policy-as-code + pipeline gates).
