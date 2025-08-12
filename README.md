@@ -10,11 +10,8 @@ This report maps each selected **Azure** service to its closest **AWS** and **GC
 
 ---
 
-## 🔎 Quick Reference Mapping
-
 # Azure, AWS, and GCP Service Equivalents
 
-This document maps 18 Azure services from the Week 13 Revision slides to their closest AWS and GCP equivalents.
 
 | #  | Azure Service | AWS Equivalent | GCP Equivalent |
 |----|---------------|----------------|----------------|
