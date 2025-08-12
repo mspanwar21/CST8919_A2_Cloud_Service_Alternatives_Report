@@ -8,9 +8,6 @@ This report maps each selected **Azure** service to its closest **AWS** and **GC
 - **Pricing Model**
 - **Integration for DevSecOps**
 
-> Scope: Based on the uploaded Week 13 – Revision slides, the following Azure services were identified and analyzed:
-> **Azure Resource Manager (ARM), Microsoft Entra ID (Azure AD), Azure Monitor, Log Analytics, Azure Policy.**
-
 ---
 
 ## 🔎 Quick Reference Mapping
