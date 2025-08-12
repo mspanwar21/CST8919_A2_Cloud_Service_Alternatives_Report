@@ -1,15 +1,13 @@
 
 # Cloud Service Comparisons: Azure vs AWS vs GCP (Security, Ops, and DevSecOps)
 
-This document compares **18 Azure services** (from your Week 13 slides) with their closest **AWS** and **GCP** counterparts.  
+This document compares **18 Azure services** used in whole course with their closest **AWS** and **GCP** counterparts.  
 For each service you’ll find:
 - **Overview**
 - **Core Features**
 - **Security & Compliance**
 - **Pricing Model**
 - **Integration for DevSecOps** (automation, CI/CD, monitoring)
-
-> Notes: Compliance varies by **region/sku**. Always verify the exact certifications for your target region and service tier. Pricing is summarized at a high level.
 
 ---
 
