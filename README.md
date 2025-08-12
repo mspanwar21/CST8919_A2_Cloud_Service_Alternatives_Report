@@ -12,13 +12,30 @@ This report maps each selected **Azure** service to its closest **AWS** and **GC
 
 ## 🔎 Quick Reference Mapping
 
-| Azure Service | AWS Equivalent | GCP Equivalent |
-|---|---|---|
-| **Azure Resource Manager (ARM)** | **AWS CloudFormation** (also CDK, Service Catalog) | **Deployment Manager** (legacy) / **Config Connector** (Kubernetes-based) / **Terraform** (multi-cloud) |
-| **Microsoft Entra ID** (Azure AD) | **AWS IAM** + **IAM Identity Center** (formerly AWS SSO) | **Google Cloud Identity** + **Google Cloud IAM** |
-| **Azure Monitor** | **Amazon CloudWatch** | **Google Cloud Monitoring** (part of Operations suite) |
-| **Azure Log Analytics** | **CloudWatch Logs & Logs Insights** | **Google Cloud Logging** (+ **BigQuery** for advanced analytics) |
-| **Azure Policy** | **AWS Config** + **AWS Organizations SCPs** + **Config Rules** | **Organization Policy Service** + **Policy Controller/Config Validator** |
+# Azure, AWS, and GCP Service Equivalents
+
+This document maps 18 Azure services from the Week 13 Revision slides to their closest AWS and GCP equivalents.
+
+| #  | Azure Service | AWS Equivalent | GCP Equivalent |
+|----|---------------|----------------|----------------|
+| 1  | **Azure Resource Manager (ARM)** | AWS CloudFormation / AWS CDK | Google Cloud Deployment Manager (legacy) / Config Connector / Terraform |
+| 2  | **Microsoft Entra ID (Azure AD)** | AWS IAM + IAM Identity Center (formerly AWS SSO) | Google Cloud Identity + Cloud IAM |
+| 3  | **Azure Monitor** | Amazon CloudWatch | Google Cloud Monitoring (Ops Suite) |
+| 4  | **Azure Log Analytics** | CloudWatch Logs + Logs Insights | Google Cloud Logging (+ BigQuery for analysis) |
+| 5  | **Azure Policy** | AWS Config + AWS Organizations SCPs | Google Cloud Organization Policy Service + Policy Controller |
+| 6  | **Azure Landing Zone** | AWS Control Tower | Google Cloud Landing Zone Framework (Blueprints) |
+| 7  | **Microsoft Defender for Cloud** | AWS Security Hub + Amazon Inspector + GuardDuty | Google Security Command Center |
+| 8  | **Microsoft Sentinel** | AWS Security Hub + Amazon Detective | Chronicle Security Operations (Google) |
+| 9  | **Azure Logic Apps** | AWS Step Functions + AWS EventBridge + AWS Lambda (for workflows) | Google Cloud Workflows + Eventarc |
+| 10 | **Azure Functions** | AWS Lambda | Google Cloud Functions |
+| 11 | **Azure Event Hubs** | Amazon Kinesis Data Streams / Amazon MSK (Kafka) | Google Cloud Pub/Sub |
+| 12 | **Azure Storage** | Amazon S3 | Google Cloud Storage |
+| 13 | **Azure Key Vault** | AWS Secrets Manager + AWS KMS | Google Secret Manager + Cloud KMS |
+| 14 | **Azure Firewall** | AWS Network Firewall | Google Cloud Firewall |
+| 15 | **Azure Network Security Groups (NSG)** | AWS Security Groups | Google VPC Firewall Rules |
+| 16 | **Azure Blueprints** | AWS Service Catalog + AWS Control Tower | Google Cloud Deployment Manager + Terraform + Org Policy Bundles |
+| 17 | **Azure DevOps** | AWS CodePipeline + CodeBuild + CodeCommit + CodeDeploy | Google Cloud Build + Artifact Registry + Cloud Deploy |
+| 18 | **Azure API Management** | Amazon API Gateway | Google Cloud Endpoints / API Gateway |
 
 ---
 
